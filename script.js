@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   animateSkillBars();
 
-  // ── 3D Tilt on Project Cards ──
+  // ── 3D Tilt on Project Cards & Cert Cards ──
   document.querySelectorAll('[data-tilt]').forEach(card => {
     card.addEventListener('mousemove', e => {
       const r   = card.getBoundingClientRect();
